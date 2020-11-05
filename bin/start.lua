@@ -9,19 +9,21 @@ nixio = require "nixio"
 clientip = ''
 
 -- server ip
-nasip = '0.0.0.0'
+nasip = '172.17.18.2'
+
 
 -- mac
-mac = ''
+mac = 'f4:d1:08:5e:8b:21'
+
 
 -- secret code
 secret = 'Eshore!@#'
 
 -- username
-username = ''
+username = '3119001557'
 
 -- password
-password = ''
+password = '163390'
 -- ============= config end ==================
 
 function getVerifyCodeString()
